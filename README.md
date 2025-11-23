@@ -32,7 +32,7 @@ Built for interns, juniors, and mid-level developers, while remaining clean enou
 ## 📚 Table of Contents
 
 - Boilerplate Information
-- [Why This Boilerplate?](##-why-this-boilerplate?)
+- [Why This Boilerplate?](#-why-this-boilerplate?)
 - [Usage Guide](#-usage-guide)
   - [Clone Instruction](#-clone-instruction)
   - [Setup Instructions](#-setup-instructions)
