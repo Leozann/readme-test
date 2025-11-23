@@ -1,6 +1,4 @@
 # Express + TypeScript Boilerplate
-## Sample Section
-
 A modern, production-ready backend boilerplate designed for **small to medium applications**, internal engineering teams, and scalable enterprise level usage (non-microservice). Structured for clarity, long-term maintainability, and fast onboarding.
 
 ### 🔗 Built With
@@ -82,33 +80,6 @@ This repository addresses all of these points, providing a robust foundation for
 ## 🏷 Naming Conventions
 
 ## 📝 Additional Notes
-
-# Example headings
-
-
-
-## This'll be a _Helpful_ Section About the Greek Letter Θ!
-A heading containing characters not allowed in fragments, UTF-8 characters, two consecutive spaces between the first and second words, and formatting.
-
-## This heading is not unique in the file
-
-TEXT 1
-
-## This heading is not unique in the file
-
-TEXT 2
-
-
-# Links to the example headings above
-
-Link to the sample section: [Sample Section](#sample-section).
-
-Link to the helpful section: [Link Text](#thisll-be-a-helpful-section-about-the-greek-letter-Θ).
-
-Link to the first non-unique section: [Link Text](#this-heading-is-not-unique-in-the-file).
-
-Link to the second non-unique section: [Link Text](#this-heading-is-not-unique-in-the-file-1).
-
 
 
 
