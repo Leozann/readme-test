@@ -1,4 +1,5 @@
 # Express + TypeScript Boilerplate
+## Sample Section
 
 A modern, production-ready backend boilerplate designed for **small to medium applications**, internal engineering teams, and scalable enterprise level usage (non-microservice). Structured for clarity, long-term maintainability, and fast onboarding.
 
@@ -44,7 +45,7 @@ Built for interns, juniors, and mid-level developers, while remaining clean enou
 
 # Example headings
 
-## Sample Section
+
 
 ## This'll be a _Helpful_ Section About the Greek Letter Θ!
 A heading containing characters not allowed in fragments, UTF-8 characters, two consecutive spaces between the first and second words, and formatting.
