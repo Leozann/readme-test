@@ -43,6 +43,46 @@ Built for interns, juniors, and mid-level developers, while remaining clean enou
 - Additional Notes
 - Contributors
 
+
+## ❓ Why This Boilerplate?
+
+Modern backend engineering requires:
+
+- Clear, enforceable structure
+- Easy onboarding for new developers
+- Predictable patterns
+- Strong testing support
+- Production-ready defaults
+- Long-term maintainability
+
+This repository addresses all of these points, providing a robust foundation for stable projects within your department and for public use.
+
+## 🚀 Usage Guide
+
+### 🧪 Clone Instruction
+
+### 🚧 Setup Instructions
+
+### 🐳 Docker Support
+
+## 📁 Folder Structure
+
+```text
+.
+├── src/
+│   ├── config/
+│   ├── modules/
+│   ├── utils/
+│   └── app.ts
+├── tests/
+├── database/
+└── ...
+```
+
+## 🏷 Naming Conventions
+
+## 📝 Additional Notes
+
 # Example headings
 
 
