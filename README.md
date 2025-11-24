@@ -45,7 +45,7 @@ Built for interns, juniors, and mid-level developers, while remaining clean enou
 - Contributors
 
 
-## ❓ Why This Boilerplate?
+## 📌 Why This Boilerplate?
 
 Modern backend engineering requires:
 
@@ -63,21 +63,18 @@ This repository addresses all of these points, providing a robust foundation for
 ### 🧪 Clone Repository
 
 ### 🚧 Initial Setup
+> [!IMPORTANT]
+> The initial setup process is mandatory.
+
+This repository provides an automated configuration script that handles all required preparations, ensuring the application is correctly initialized and aligned across all environments and team members.
 
 <details>
 
 <summary>Show Instructions</summary>
-
-### You can add a header
-
-You can add text within a collapsed section.
-
-You can add an image or a code block, too.
-
-```ruby
-   puts "Hello World"
+Run the following command once before starting development, staging, or production:
+```node
+   pnpm run init:setup
 ```
-
 </details>
 
 ### 🐳 Docker Support
