@@ -79,7 +79,6 @@ Run the following command once before starting development, staging, or producti
    pnpm run init:setup
 ```
 after that...
-<br>
 &nbsp;
 
 ```sh
