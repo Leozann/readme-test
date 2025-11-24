@@ -1,9 +1,7 @@
 <div align="center">
-
-<! -- ![Express TS Banner](./header1.png) -->
-
+  
 <p align="center">
-  <img src="./assets/banner.png" alt="Banner" />
+  <img src="./header.png" alt="Banner" />
 </p>
   
 # Express + TypeScript Boilerplate
