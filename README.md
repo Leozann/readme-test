@@ -15,20 +15,19 @@ Simply **clone → init → start building.**
 
 ### 🧩 Key Features
 
-- **Production ready architecture**
+- **Production-ready architecture**
 - **App instance separated from entry point**
   - Serverless compatible
   - Test-friendly (supertest can load the app without starting a server)
-  - Clear responsibility boundaries
-- **Fully type safe development**
-- **Ready for Docker & local development**
+- **Fully type safe end-to-end development**
+- **Ready for Docker & local machine development**
 - **Cross-platform support (Windows + macOS)**
 - **Built-in code quality tools**
   - Pre-configured linting + formatting
   - Example unit tests included
 - **Service Repository design pattern**
 
-Built for interns, juniors, and mid-level developers, while remaining clean enough for larger scale use.
+Built for interns, juniors, and mid-level developers, while remaining clean enough for larger-scale use.
 
 ## 📚 Table of Contents
 
@@ -100,6 +99,14 @@ Run the following command once before starting development, staging, or producti
 ## 🏷 Naming Conventions
 
 ## 📝 Additional Notes
+> [!NOTE]
+> Useful information that developers should know.
+
+1. Commit prevention is enforced:
+   **You cannot push without associated test files** — this improves code quality.
+2. Recommended editor: VS Code with:
+   - ESLint
+   - Prettier
 
 
 
