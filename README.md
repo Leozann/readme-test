@@ -74,7 +74,8 @@ This repository provides an automated configuration script that handles all requ
 &nbsp;
 Run the following command once before starting development, staging, or production:
 &nbsp;
-```node
+
+```sh
    pnpm run init:setup
 ```
 </details>
