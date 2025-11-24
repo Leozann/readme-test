@@ -103,8 +103,9 @@ Run the following command once before starting development, staging, or producti
 > Useful information that developers should know.
 
 1. Commit prevention is enforced:
+   <br>
    **You cannot push without associated test files** — this improves code quality.
-2. Recommended editor: VS Code with:
+3. Recommended editor: VS Code with:
    - ESLint
    - Prettier
 
