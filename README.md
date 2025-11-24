@@ -91,13 +91,13 @@ after that...
 &nbsp;
 
 ```sh
-   // development
+   # development
    pnpm run dev
 
-   // staging
+   # staging
    pnpm run staging
 
-   // production
+   # production
    pnpm run prod
 ```
 </details>
@@ -109,7 +109,7 @@ Lorem ipsum...
 <br>
 
 ```sh
-  <!-- # start docker services with logs
+  # start docker services with logs
   docker compose --env-file .env.development up --build
 ```
   
