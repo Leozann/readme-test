@@ -64,6 +64,7 @@ Lorem ipsum...
 <details>
 <summary>Show Instructions</summary>
 <br>
+
 ```sh
    git clone https://github.com/Leozann/express-ts-boilerplate.git
 ```
@@ -106,6 +107,7 @@ Lorem ipsum...
 <details>
 <summary>Show Instructions</summary>
 <br>
+
 ```sh
   <!-- # start docker services with logs
   docker compose --env-file .env.development up --build
