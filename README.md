@@ -1,6 +1,10 @@
 <div align="center">
 
-![Express TS Banner](./header1.png)
+<! -- ![Express TS Banner](./header1.png) -->
+
+<p align="center">
+  <img src="./assets/banner.png" alt="Banner" />
+</p>
   
 # Express + TypeScript Boilerplate
 A modern, production-ready backend boilerplate designed for **small to medium applications**, internal engineering teams, and scalable enterprise level usage (non-microservice). Structured for clarity, long-term maintainability, and fast onboarding.
