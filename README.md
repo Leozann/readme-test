@@ -13,7 +13,7 @@ Simply **clone → init → start building.**
 
 </div>
 
-## 🧩 Key Features
+### 🧩 Key Features
 
 - **Production ready architecture**
 - **App instance separated from entry point**
@@ -60,9 +60,25 @@ This repository addresses all of these points, providing a robust foundation for
 
 ## 🚀 Usage Guide
 
-### 🧪 Clone Instruction
+### 🧪 Clone Repository
 
-### 🚧 Setup Instructions
+### 🚧 Initial Setup
+
+<details>
+
+<summary>Show Instructions</summary>
+
+### You can add a header
+
+You can add text within a collapsed section.
+
+You can add an image or a code block, too.
+
+```ruby
+   puts "Hello World"
+```
+
+</details>
 
 ### 🐳 Docker Support
 
