@@ -34,13 +34,13 @@ Built for interns, juniors, and mid-level developers, while remaining clean enou
 - [Boilerplate Information](#express--typescript-boilerplate)
 - [Why This Boilerplate?](#-why-this-boilerplate)
 - [Usage Guide](#-usage-guide)
-  - [Clone Instruction](#-clone-instruction)
-  - [Setup Instructions](#-setup-instructions)
+  - [Clone Repository](#-clone-instruction)
+  - [Initial Setup](#-initial-setup)
   - [Docker Support](#-docker-support)
 - [Folder Structure](#-folder-structure)
 - Database Structure (see `database/readme`)
 - Naming Conventions
-- Additional Notes
+<!-- - Additional Notes -->
 - Contributors
 
 
@@ -77,6 +77,20 @@ Run the following command once before starting development, staging, or producti
 
 ```sh
    pnpm run init:setup
+```
+after that...
+<br>
+&nbsp;
+
+```sh
+   // development
+   pnpm run dev
+
+   // staging
+   pnpm run staging
+
+   // production
+   pnpm run prod
 ```
 </details>
 
