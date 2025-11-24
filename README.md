@@ -63,7 +63,7 @@ This repository addresses all of these points, providing a robust foundation for
 Lorem ipsum...
 <details>
 <summary>Show Instructions</summary>
-  
+<br>
 ```sh
    git clone https://github.com/Leozann/express-ts-boilerplate.git
 ```
@@ -105,7 +105,7 @@ after that...
 Lorem ipsum...
 <details>
 <summary>Show Instructions</summary>
-  
+<br>
 ```sh
   <!-- # start docker services with logs
   docker compose --env-file .env.development up --build
