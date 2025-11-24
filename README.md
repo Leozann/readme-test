@@ -60,6 +60,10 @@ This repository addresses all of these points, providing a robust foundation for
 ## 🚀 Usage Guide
 
 ### 🧪 Clone Repository
+Lorem ipsum...
+<details>
+  <summary>Show Instructions</summary>
+</details>
 
 ### 🚧 Initial Setup
 > [!IMPORTANT]
@@ -94,6 +98,10 @@ after that...
 </details>
 
 ### 🐳 Docker Support
+Lorem ipsum...
+<details>
+  <summary>Show Instructions</summary>
+</details>
 
 ## 📁 Folder Structure
 
@@ -118,7 +126,7 @@ after that...
 1. Commit prevention is enforced:
    <br>
    **You cannot push without associated test files** — this improves code quality.
-3. Recommended editor: VS Code with:
+3. Recommended code editor: **VS Code** with:
    - ESLint
    - Prettier
 
