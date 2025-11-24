@@ -98,7 +98,7 @@ Run the following command once before starting development, staging, or producti
 
 ## 🏷 Naming Conventions
 
-## 📝 Additional Notes
+<!-- ## 📝 Additional Notes -->
 > [!NOTE]
 > Useful information that developers should know.
 
