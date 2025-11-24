@@ -62,7 +62,10 @@ This repository addresses all of these points, providing a robust foundation for
 ### 🧪 Clone Repository
 Lorem ipsum...
 <details>
-  <summary>Show Instructions</summary>
+<summary>Show Instructions</summary>
+```sh
+   git clone https://github.com/Leozann/express-ts-boilerplate.git
+```
 </details>
 
 ### 🚧 Initial Setup
@@ -100,7 +103,15 @@ after that...
 ### 🐳 Docker Support
 Lorem ipsum...
 <details>
-  <summary>Show Instructions</summary>
+<summary>Show Instructions</summary>
+```sh
+  <!-- # start docker services with logs
+  docker compose --env-file .env.development up --build
+```
+  
+```sh
+  docker compose down
+```
 </details>
 
 ## 📁 Folder Structure
@@ -129,6 +140,8 @@ Lorem ipsum...
 3. Recommended code editor: **VS Code** with:
    - ESLint
    - Prettier
+
+## 🎭 Contributors
 
 
 
