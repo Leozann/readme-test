@@ -73,15 +73,16 @@ Use this method if you prefer the simplest setup or don’t have SSH keys config
 &nbsp;
 
 ```sh
-   # clone via https
-   git clone https://github.com/Leozann/express-ts-boilerplate.git
+  # clone via https
+  git clone https://github.com/Leozann/express-ts-boilerplate.git
 ```
 
 Use this method if you already have SSH keys set up with GitHub. It provides a secure, password-less way to clone and push
 &nbsp;
 
 ```sh
-   git clone git@github.com:Leozann/express-ts-boilerplate.git
+  # clone via ssh
+  git clone git@github.com:Leozann/express-ts-boilerplate.git
 ```
 </details>
 
@@ -100,50 +101,54 @@ Run the following command once before starting development, staging, or producti
 &nbsp;
 
 ```sh
-    pnpm run init:setup
+  pnpm run init:setup
 ```
 After installing dependencies, you can start the project in different modes using the following commands:
 &nbsp;
 
 ```sh
-    # development
-    pnpm run dev
+  # development
+  pnpm run dev
 
-    # staging
-    pnpm run staging
+  # staging
+  pnpm run staging
 
-    # production
-    pnpm run prod
+  # production
+  pnpm run prod
 ```
 If you want to enable the playground log while running in a local environment *_the log file is only created when **NODE_ENV=production**_, you can use the following command:
 &nbsp;
 
 ```sh
-    pnpm run prod:dev
+  pnpm run prod:dev
 ```
 Before running it, add this script to your package.json:
 &nbsp;
 
 ```sh
-    "prod:dev": "cross-env NODE_ENV=production tsx src/main.ts"
+  "prod:dev": "cross-env NODE_ENV=production tsx src/main.ts"
 ```
 </details>
 
 ### 🐳 Docker Support
 This boilerplate is fully **Docker-ready**, so you can start developing immediately without extra setup. Express automatically handles watch mode, so you can focus on the playground.
 <details>
+
 <summary>Show Instructions</summary>
 <br>
+This command builds the Docker images and starts all containers, including your application and database
+<br>
+&nbsp;
 
 ```sh
-    # builds images and starts all containers (app + database)
-    docker compose up --build
+  docker compose up --build
 
 ```
-  
+Use this command to stop the Docker stack and remove the containers, while keeping your volumes and data
+&nbsp;
 ```sh
-    # shuts down the docker stack and removes containers, but keeps your volumes and data
-    docker compose down
+  # shuts down the docker stack and removes containers, but keeps your volumes and data
+  docker compose down
 ```
 </details>
 
