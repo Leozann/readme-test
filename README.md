@@ -44,16 +44,14 @@ Built for interns, juniors, and mid-level developers, while remaining clean enou
   - [Initial Setup](#-initial-setup)
   - [Docker Support](#-docker-support)
 - [Folder Structure](#-folder-structure)
-- Database Structure (see `database/readme`)
-- Naming Conventions
-<!-- - Additional Notes -->
-- Contributors
+- [Database Guide](./src/database/README.md)
+- [Naming Conventions](#-naming-conventions)
+- [Contributors](#-contributors)
 
 
 ## 📌 Why This Boilerplate?
 
 Modern backend engineering requires:
-
 - Clear, enforceable structure
 - Easy onboarding for new developers
 - Predictable patterns
@@ -70,9 +68,20 @@ Lorem ipsum...
 <details>
 <summary>Show Instructions</summary>
 <br>
+Use this method if you prefer the simplest setup or don’t have SSH keys configured
+<br>
+&nbsp;
 
 ```sh
+   # clone via https
    git clone https://github.com/Leozann/express-ts-boilerplate.git
+```
+
+Use this method if you already have SSH keys set up with GitHub. It provides a secure, password-less way to clone and push
+&nbsp;
+
+```sh
+git clone git@github.com:Leozann/express-ts-boilerplate.git
 ```
 </details>
 
@@ -93,7 +102,7 @@ Run the following command once before starting development, staging, or producti
 ```sh
    pnpm run init:setup
 ```
-after that... *_the log file is only created when **NODE_ENV=production**_
+After installing dependencies, you can start the project in different modes using the following commands:
 &nbsp;
 
 ```sh
@@ -106,6 +115,18 @@ after that... *_the log file is only created when **NODE_ENV=production**_
    # production
    pnpm run prod
 ```
+If you want to enable the playground log while running in a local environment *_the log file is only created when **NODE_ENV=production**_, you can use the following command:
+&nbsp;
+
+```sh
+pnpm run prod:dev
+```
+Before running it, add this script to your package.json:
+&nbsp;
+
+```sh
+"prod:dev": "cross-env NODE_ENV=production tsx src/main.ts"
+```
 </details>
 
 ### 🐳 Docker Support
@@ -115,11 +136,13 @@ Lorem ipsum...
 <br>
 
 ```sh
-  # start docker services with logs
-  docker compose --env-file .env.development up --build
+  # don’t worry about watch mode; express already handles it internally
+  docker compose up --build
+
 ```
   
 ```sh
+  # shuts down the docker stack and removes containers, but keeps your volumes and data
   docker compose down
 ```
 </details>
