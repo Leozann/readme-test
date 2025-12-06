@@ -93,7 +93,7 @@ Run the following command once before starting development, staging, or producti
 ```sh
    pnpm run init:setup
 ```
-after that...
+after that... *_the log file is only created when **NODE_ENV=production**_
 &nbsp;
 
 ```sh
