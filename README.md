@@ -64,7 +64,7 @@ This repository addresses all of these points, providing a robust foundation for
 ## 🚀 Usage Guide
 
 ### 🧪 Clone Repository
-Lorem ipsum...
+Below are two ways to clone this repository depending on your preferred setup.
 <details>
 <summary>Show Instructions</summary>
 <br>
@@ -81,7 +81,7 @@ Use this method if you already have SSH keys set up with GitHub. It provides a s
 &nbsp;
 
 ```sh
-git clone git@github.com:Leozann/express-ts-boilerplate.git
+   git clone git@github.com:Leozann/express-ts-boilerplate.git
 ```
 </details>
 
@@ -119,13 +119,13 @@ If you want to enable the playground log while running in a local environment *_
 &nbsp;
 
 ```sh
-pnpm run prod:dev
+   pnpm run prod:dev
 ```
 Before running it, add this script to your package.json:
 &nbsp;
 
 ```sh
-"prod:dev": "cross-env NODE_ENV=production tsx src/main.ts"
+   "prod:dev": "cross-env NODE_ENV=production tsx src/main.ts"
 ```
 </details>
 
@@ -192,3 +192,4 @@ Lorem ipsum...
 [Drizzle-url]: https://orm.drizzle.team
 [Postgres.js]: https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white
 [Postgres-url]: https://www.postgresql.org
+
