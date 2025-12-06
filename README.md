@@ -100,50 +100,50 @@ Run the following command once before starting development, staging, or producti
 &nbsp;
 
 ```sh
-   pnpm run init:setup
+    pnpm run init:setup
 ```
 After installing dependencies, you can start the project in different modes using the following commands:
 &nbsp;
 
 ```sh
-   # development
-   pnpm run dev
+    # development
+    pnpm run dev
 
-   # staging
-   pnpm run staging
+    # staging
+    pnpm run staging
 
-   # production
-   pnpm run prod
+    # production
+    pnpm run prod
 ```
 If you want to enable the playground log while running in a local environment *_the log file is only created when **NODE_ENV=production**_, you can use the following command:
 &nbsp;
 
 ```sh
-   pnpm run prod:dev
+    pnpm run prod:dev
 ```
 Before running it, add this script to your package.json:
 &nbsp;
 
 ```sh
-   "prod:dev": "cross-env NODE_ENV=production tsx src/main.ts"
+    "prod:dev": "cross-env NODE_ENV=production tsx src/main.ts"
 ```
 </details>
 
 ### 🐳 Docker Support
-Lorem ipsum...
+This boilerplate is fully **Docker-ready**, so you can start developing immediately without extra setup. Express automatically handles watch mode, so you can focus on the playground.
 <details>
 <summary>Show Instructions</summary>
 <br>
 
 ```sh
-  # don’t worry about watch mode; express already handles it internally
-  docker compose up --build
+    # builds images and starts all containers (app + database)
+    docker compose up --build
 
 ```
   
 ```sh
-  # shuts down the docker stack and removes containers, but keeps your volumes and data
-  docker compose down
+    # shuts down the docker stack and removes containers, but keeps your volumes and data
+    docker compose down
 ```
 </details>
 
