@@ -4,10 +4,10 @@
   <img src="./header.png" alt="Banner" />
 </p>
 
-![Tests Passing](https://img.shields.io/badge/tests-11_passed-success)
-
 # Express + TypeScript Boilerplate
 A modern, production-ready backend boilerplate designed for **small to medium applications**, internal engineering teams, and scalable enterprise level usage (non-microservice). Structured for clarity, long-term maintainability, and fast onboarding.
+
+![Tests Passing](https://img.shields.io/badge/tests-11_passed-success)
 
 ### Built With
 
